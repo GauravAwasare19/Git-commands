@@ -1,0 +1,1 @@
+$ git ls-files -z -d | xargs -0 git checkout -- (if deleted the repo or files then use this, it restores all the files wiyhout specifying path )
